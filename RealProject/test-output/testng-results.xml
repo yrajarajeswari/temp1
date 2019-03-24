@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="51954" started-at="2019-02-21T00:34:26Z" finished-at="2019-02-21T00:35:18Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="35222" started-at="2019-02-21T00:34:26Z" finished-at="2019-02-21T00:35:01Z">
+      <class name="Academy.homepage">
+        <test-method status="PASS" signature="setups()[pri:0, instance:Academy.homepage@29774679]" name="setups" is-config="true" duration-ms="2480" started-at="2019-02-21T00:34:26Z" finished-at="2019-02-21T00:34:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setups -->
+        <test-method status="PASS" signature="basepagenavigation(java.lang.String, java.lang.String)[pri:0, instance:Academy.homepage@29774679]" name="basepagenavigation" duration-ms="15616" started-at="2019-02-21T00:34:28Z" data-provider="getdata" finished-at="2019-02-21T00:34:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc@qw.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456A]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basepagenavigation -->
+        <test-method status="PASS" signature="setups()[pri:0, instance:Academy.homepage@29774679]" name="setups" is-config="true" duration-ms="2014" started-at="2019-02-21T00:34:44Z" finished-at="2019-02-21T00:34:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setups -->
+        <test-method status="PASS" signature="basepagenavigation(java.lang.String, java.lang.String)[pri:0, instance:Academy.homepage@29774679]" name="basepagenavigation" duration-ms="15017" started-at="2019-02-21T00:34:46Z" data-provider="getdata" finished-at="2019-02-21T00:35:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[xyz@qw.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abcde]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basepagenavigation -->
+        <test-method status="PASS" signature="teardowns()[pri:0, instance:Academy.homepage@29774679]" name="teardowns" is-config="true" duration-ms="79" started-at="2019-02-21T00:35:01Z" finished-at="2019-02-21T00:35:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardowns -->
+      </class> <!-- Academy.homepage -->
+    </test> <!-- Test -->
+    <test name="Test1" duration-ms="16717" started-at="2019-02-21T00:35:01Z" finished-at="2019-02-21T00:35:18Z">
+      <class name="Academy.validatingpage">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Academy.validatingpage@e25b2fe]" name="setup" is-config="true" duration-ms="16584" started-at="2019-02-21T00:35:01Z" finished-at="2019-02-21T00:35:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="basepagenavigation()[pri:0, instance:Academy.validatingpage@e25b2fe]" name="basepagenavigation" duration-ms="63" started-at="2019-02-21T00:35:18Z" finished-at="2019-02-21T00:35:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basepagenavigation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Academy.validatingpage@e25b2fe]" name="teardown" is-config="true" duration-ms="69" started-at="2019-02-21T00:35:18Z" finished-at="2019-02-21T00:35:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Academy.validatingpage -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite -->
+</testng-results>
